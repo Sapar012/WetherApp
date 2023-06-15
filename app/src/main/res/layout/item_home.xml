@@ -3,16 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="95dp"
     android:layout_height="100dp"
-    android:layout_marginTop="8dp"
     android:layout_marginStart="18dp"
-    app:cardElevation="20dp"
-    android:background="@drawable/item_radius">
+    android:layout_marginTop="8dp"
+    android:background="@drawable/item_radius"
+    app:cardElevation="20dp">
 
     <ImageView
         android:id="@+id/img_item"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="18dp"
         android:background="@drawable/_07_sunny_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,9 +24,9 @@
         android:id="@+id/textView5"
         android:layout_width="48dp"
         android:layout_height="20dp"
-        android:textStyle="bold"
         android:fontFamily="@font/barlow_light"
         android:text="@string/mon_21"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/img_item"
         app:layout_constraintStart_toStartOf="@+id/img_item"
         app:layout_constraintTop_toBottomOf="@+id/img_item" />
